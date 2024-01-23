@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tallies>
+  <mesh id="5">
+    <dimension>400 400 1</dimension>
+    <lower_left>-125 -125 90</lower_left>
+    <upper_right>125 125 110</upper_right>
+  </mesh>
+  <mesh id="6">
+    <dimension>400 1 400</dimension>
+    <lower_left>-175 -10 -50</lower_left>
+    <upper_right>175 10 400</upper_right>
+  </mesh>
+  <filter id="5" type="mesh">
+    <bins>5</bins>
+  </filter>
+  <filter id="6" type="mesh">
+    <bins>6</bins>
+  </filter>
+  <tally id="6" name="flux1">
+    <filters>5</filters>
+    <scores>flux fission absorption</scores>
+  </tally>
+  <tally id="7" name="flux2">
+    <filters>6</filters>
+    <scores>flux fission absorption</scores>
+  </tally>
+</tallies>
