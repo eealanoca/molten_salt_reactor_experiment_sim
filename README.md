@@ -27,6 +27,10 @@ openmc.plot_inline(plots)
 ```
 
 <p align="center">
+  <em>MSRE Core Slices</em>
+</p>
+
+<p align="center">
   <img src="plot_1.png" width="300" alt="MSRE Core Slices">
 </p>
 
@@ -44,6 +48,10 @@ Next, the geometry of the MSRE core is defined using the DAGMCUniverse and expor
 plots = openmc.Plots([p1, p2, p3])
 openmc.plot_inline(plots)
 ```
+
+<p align="center">
+  <em>MSRE Core Geometry</em>
+</p>
 
 <p align="center">
   <img src="plot_2.png" width="300" alt="MSRE Core Geometry">
@@ -94,12 +102,27 @@ fig, (ax1, ax2) = plt.subplots(ncols=2, figsize=(20, 16), constrained_layout=Tru
 # ... (energy spectrum plotting code)
 ```
 
+
+<p align="center">
+  <em>Neutron Flux Map</em>
+</p>
+
 <p align="center">
   <img src="neutron_flux_maps.png" width="900" alt="Neutron Flux Map">
 </p>
 
+
+<p align="center">
+  <em>Fission Reactions Map</em>
+</p>
+
 <p align="center">
   <img src="fission_reactions_maps.png" width="900" alt="Fission Reactions Map">
+</p>
+
+
+<p align="center">
+  <em>Energy Spectrum</em>
 </p>
 
 <p align="center">
@@ -128,15 +151,34 @@ openmc.run()
 ```
 
 <p align="center">
+  <em>Modified Geometry with Control Rods XZ</em>
+</p>
+
+<p align="center">
   <img src="plot_7.png" width="300" alt="Modified Geometry with Control Rods XZ">
+</p>
+
+
+<p align="center">
+  <em>Modified Geometry with Control Rods XY</em>
 </p>
 
 <p align="center">
   <img src="plot_8.png" width="300" alt="Modified Geometry with Control Rods XY">
 </p>
 
+
+<p align="center">
+  <em>Modified Geometry with Control Rods XY * 10</em>
+</p>
+
 <p align="center">
   <img src="plot_9.png" width="200" alt="Modified Geometry with Control Rods XY * 10">
+</p>
+
+
+<p align="center">
+  <em>Absorptions Maps</em>
 </p>
 
 <p align="center">
